@@ -231,7 +231,7 @@ select:hover {
 }
 
 /* Media Queries For Mobile Devices */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .player {
         min-width: 0;
         max-width: 95vw;
@@ -243,5 +243,24 @@ select:hover {
 
     .time span {
         font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .player {
+        min-width: 0;
+        max-width: 95vw;
+    }
+
+    i {
+        font-size: 11px;
+    }
+
+    .time span {
+        font-size: 11px;
+    }
+
+    .volume-range {
+        width: 60px;
     }
 }
